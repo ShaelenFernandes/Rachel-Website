@@ -1,0 +1,43 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;  
+   */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1a55;
+  }
+  .topnav {
+    float: right;
+    overflow: hidden;
+    background-color: #1b1a55;
+    align-items: left;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2.5vh;
+    
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    width: 20%;
+    /* height: 50%; */
+  }
+  
+  /* .topnav a:hover {
+    background-color: black;
+  } */
+  
+  /* .topnav a.active {
+   background-color: #6b9bb3; 
+    color: black;
+  } */
